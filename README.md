@@ -1,5 +1,3 @@
-# Text Classification
-Il mio secondo progetto in Python. L'obiettivo del progetto è estrapolare dal testo dei tweet solo quelle parole utili ai fini della classificazione, in particolare avremo che: 
-0(Rappresenta la classe dei tweet non razzisti) e
-1(Rappresenta la classe dei tweet razzisti).
-Il modello di machine learning utilizzato è il Random Forest. Per pulire il testo dei tweet sono state utilizzate espressioni regolari, per rimuovere dal testo numeri, caratteri speciali, singoli caratteri, ecc... .
+#pinguinitatticinucleari
+Il mio terzo progetto in Python. L'obiettivo del progetto è estrapolare da Twitter 100 tweets(del giorno 13/07/2022) riguardanti il trend #pinguinitatticinucleari. 
+Successivamente i testi dei tweets saranno sottoposti a "pulizia", quindi verranno rimossi caratteri speciali, numeri, caratteri singoli, ecc... . Attravreso l'algoritmo TextBlob i testi "puliti" dei tweets verranno classificati in base alla polarità(Negativo, Neutrale, Positivo). Infine, verranno mostrate attraverso un grafico a barre, le prime 20 parole più ricorrenti all'interno dei tweets. 
